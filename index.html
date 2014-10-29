@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Collage Magazine: The Premier Fashion Magazine of the Rocky Mountains</title>
+    <link href="css/lib/bootstrap/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/masonry.pkgd.min.js"></script>
+</head>
+<body>
+<div id="container">
+    <div class="item">
+        <img src="img/Collage_2014-21.png" class="img-responsive">
+    </div>
+
+    <div class="item">
+        Welcome to Collage
+    </div>
+
+    <div class="item">
+        Welcome to Collage
+    </div>
+
+    <div class="item">
+        Welcome to Collage
+    </div>
+</div>
+
+<script>
+    $('#container').masonry({
+        itemSelector: '.item',
+        columnWidth: 200
+
+    });
+</script>
+</body>
+</html>
